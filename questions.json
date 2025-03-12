@@ -1,294 +1,292 @@
-{
-  "questions": [
-    {
-      "questionText": "What does 'var' declare in JavaScript?",
-      "answerOptions": [
-        "1. A function",
-        "2. A variable",
-        "3. An array",
-        "4. An object"
-      ],
-      "correctIndex": "2"
-    },
-    {
-      "questionText": "Which symbol is used for comments in JavaScript?",
-      "answerOptions": ["1. //", "2. /*", "3. ##", "4. <!--"],
-      "correctIndex": "1"
-    },
-    {
-      "questionText": "What does the 'console.log' function do?",
-      "answerOptions": [
-        "1. Logs a value to the console",
-        "2. Logs a value to the screen",
-        "3. Creates a log file",
-        "4. Prints to the browser"
-      ],
-      "correctIndex": "1"
-    },
-    {
-      "questionText": "Which of the following is not a primitive data type in JavaScript?",
-      "answerOptions": ["1. String", "2. Boolean", "3. Object", "4. Undefined"],
-      "correctIndex": "3"
-    },
-    {
-      "questionText": "What keyword is used to create a constant variable in JavaScript?",
-      "answerOptions": ["1. let", "2. const", "3. variable", "4. static"],
-      "correctIndex": "2"
-    },
-    {
-      "questionText": "Which of the following is the correct syntax to create a function in JavaScript?",
-      "answerOptions": [
-        "1. function myFunction()",
-        "2. func myFunction()",
-        "3. create function myFunction()",
-        "4. def myFunction()"
-      ],
-      "correctIndex": "1"
-    },
-    {
-      "questionText": "How do you add a comment in JavaScript?",
-      "answerOptions": [
-        "1. # This is a comment",
-        "2. <!-- This is a comment -->",
-        "3. // This is a comment",
-        "4. 'This is a comment'"
-      ],
-      "correctIndex": "3"
-    },
-    {
-      "questionText": "Which operator is used to compare both value and type in JavaScript?",
-      "answerOptions": ["1. =", "2. ==", "3. ===", "4. !=="],
-      "correctIndex": "3"
-    },
-    {
-      "questionText": "What does 'undefined' represent in JavaScript?",
-      "answerOptions": [
-        "1. A variable that is declared but not assigned",
-        "2. A variable with no value",
-        "3. A function with no return value",
-        "4. A special number"
-      ],
-      "correctIndex": "1"
-    },
-    {
-      "questionText": "Which method is used to find the length of an array in JavaScript?",
-      "answerOptions": [
-        "1. .length()",
-        "2. .size()",
-        "3. .count()",
-        "4. .length"
-      ],
-      "correctIndex": "4"
-    },
-    {
-      "questionText": "How do you declare an array in JavaScript?",
-      "answerOptions": [
-        "1. let arr = []",
-        "2. var arr = ()",
-        "3. const arr = {};",
-        "4. arr = []"
-      ],
-      "correctIndex": "1"
-    },
-    {
-      "questionText": "What will be the output of the expression '5' + 5 in JavaScript?",
-      "answerOptions": ["1. 55", "2. 10", "3. '55'", "4. '5'5'"],
-      "correctIndex": "3"
-    },
-    {
-      "questionText": "How can you create a new object in JavaScript?",
-      "answerOptions": [
-        "1. let obj = {};",
-        "2. let obj = []; ",
-        "3. let obj = function();",
-        "4. let obj = new Object();"
-      ],
-      "correctIndex": "1"
-    },
-    {
-      "questionText": "Which method is used to add an element to the end of an array?",
-      "answerOptions": [
-        "1. .push()",
-        "2. .add()",
-        "3. .insert()",
-        "4. .append()"
-      ],
-      "correctIndex": "1"
-    },
-    {
-      "questionText": "What does the 'typeof' operator do in JavaScript?",
-      "answerOptions": [
-        "1. Checks the data type of a variable",
-        "2. Converts a variable to a string",
-        "3. Assigns a data type to a variable",
-        "4. Defines a variable type"
-      ],
-      "correctIndex": "1"
-    },
-    {
-      "questionText": "How do you write an if statement in JavaScript?",
-      "answerOptions": [
-        "1. if x = 10",
-        "2. if (x == 10)",
-        "3. if x == 10:",
-        "4. if (x = 10)"
-      ],
-      "correctIndex": "2"
-    },
-    {
-      "questionText": "What does the 'return' keyword do in JavaScript?",
-      "answerOptions": [
-        "1. Terminates the function and returns a value",
-        "2. Loops through all values",
-        "3. Logs the result to the console",
-        "4. Ends the program"
-      ],
-      "correctIndex": "1"
-    },
-    {
-      "questionText": "Which of these is used to define a block of code in JavaScript?",
-      "answerOptions": [
-        "1. Parentheses",
-        "2. Curly braces",
-        "3. Square brackets",
-        "4. Angle brackets"
-      ],
-      "correctIndex": "2"
-    },
-    {
-      "questionText": "What is the output of the following expression: '10' - 5?",
-      "answerOptions": ["1. 105", "2. 15", "3. '105'", "4. NaN"],
-      "correctIndex": "2"
-    },
-    {
-      "questionText": "Which method is used to remove the last element of an array?",
-      "answerOptions": [
-        "1. .pop()",
-        "2. .shift()",
-        "3. .slice()",
-        "4. .delete()"
-      ],
-      "correctIndex": "1"
-    },
-    {
-      "questionText": "How do you create a conditional statement in JavaScript?",
-      "answerOptions": ["1. if else", "2. if-else", "3. else if", "4. elif"],
-      "correctIndex": "2"
-    },
-    {
-      "questionText": "Which of the following is used to create a for loop in JavaScript?",
-      "answerOptions": [
-        "1. for (i = 0; i < 5; i++)",
-        "2. loop (i = 0; i < 5; i++)",
-        "3. for i = 0 to 5",
-        "4. for (i in 5)"
-      ],
-      "correctIndex": "1"
-    },
-    {
-      "questionText": "What does 'NaN' stand for in JavaScript?",
-      "answerOptions": [
-        "1. Not a Number",
-        "2. Null and Null",
-        "3. Not a Null",
-        "4. No Answer Needed"
-      ],
-      "correctIndex": "1"
-    },
-    {
-      "questionText": "Which of the following is the correct way to convert a string to a number in JavaScript?",
-      "answerOptions": [
-        "1. parseInt()",
-        "2. toNumber()",
-        "3. Number()",
-        "4. convert()"
-      ],
-      "correctIndex": "1"
-    },
-    {
-      "questionText": "What is the default value of a variable declared with 'let' if no value is assigned?",
-      "answerOptions": ["1. 0", "2. undefined", "3. null", "4. false"],
-      "correctIndex": "2"
-    },
-    {
-      "questionText": "Which method is used to join two arrays in JavaScript?",
-      "answerOptions": [
-        "1. .append()",
-        "2. .join()",
-        "3. .concat()",
-        "4. .merge()"
-      ],
-      "correctIndex": "3"
-    },
-    {
-      "questionText": "How do you define a class in JavaScript?",
-      "answerOptions": [
-        "1. class MyClass {}",
-        "2. function MyClass {}",
-        "3. class = MyClass",
-        "4. new MyClass()"
-      ],
-      "correctIndex": "1"
-    },
-    {
-      "questionText": "What does 'this' refer to in JavaScript?",
-      "answerOptions": [
-        "1. The current object",
-        "2. The global object",
-        "3. The function calling the code",
-        "4. The previous variable"
-      ],
-      "correctIndex": "1"
-    },
-    {
-      "questionText": "Which method can be used to check if a string contains a substring in JavaScript?",
-      "answerOptions": [
-        "1. contains()",
-        "2. search()",
-        "3. includes()",
-        "4. indexOf()"
-      ],
-      "correctIndex": "3"
-    },
-    {
-      "questionText": "What is the correct way to define a JavaScript object?",
-      "answerOptions": [
-        "1. var obj = {};",
-        "2. let obj = []; ",
-        "3. const obj = object();",
-        "4. object obj = {}"
-      ],
-      "correctIndex": "1"
-    },
-    {
-      "questionText": "What does the 'push()' method do?",
-      "answerOptions": [
-        "1. Adds an element to the beginning of an array",
-        "2. Adds an element to the end of an array",
-        "3. Removes an element from the array",
-        "4. Reverses the array"
-      ],
-      "correctIndex": "2"
-    },
-    {
-      "questionText": "How can you check if a number is an integer in JavaScript?",
-      "answerOptions": [
-        "1. isInteger()",
-        "2. integer()",
-        "3. Number.isInteger()",
-        "4. Math.isInteger()"
-      ],
-      "correctIndex": "3"
-    },
-    {
-      "questionText": "How can you prevent default form submission in JavaScript?",
-      "answerOptions": [
-        "1. e.preventDefault()",
-        "2. return false",
-        "3. stop() method",
-        "4. prevent() method"
-      ],
-      "correctIndex": "1"
-    }
-  ]
-}
+[
+  {
+    "questionText": "What does 'var' declare in JavaScript?",
+    "answerOptions": [
+      "1. A function",
+      "2. A variable",
+      "3. An array",
+      "4. An object"
+    ],
+    "correctIndex": "2"
+  },
+  {
+    "questionText": "Which symbol is used for comments in JavaScript?",
+    "answerOptions": ["1. //", "2. /*", "3. ##", "4. <!--"],
+    "correctIndex": "1"
+  },
+  {
+    "questionText": "What does the 'console.log' function do?",
+    "answerOptions": [
+      "1. Logs a value to the console",
+      "2. Logs a value to the screen",
+      "3. Creates a log file",
+      "4. Prints to the browser"
+    ],
+    "correctIndex": "1"
+  },
+  {
+    "questionText": "Which of the following is not a primitive data type in JavaScript?",
+    "answerOptions": ["1. String", "2. Boolean", "3. Object", "4. Undefined"],
+    "correctIndex": "3"
+  },
+  {
+    "questionText": "What keyword is used to create a constant variable in JavaScript?",
+    "answerOptions": ["1. let", "2. const", "3. variable", "4. static"],
+    "correctIndex": "2"
+  },
+  {
+    "questionText": "Which of the following is the correct syntax to create a function in JavaScript?",
+    "answerOptions": [
+      "1. function myFunction()",
+      "2. func myFunction()",
+      "3. create function myFunction()",
+      "4. def myFunction()"
+    ],
+    "correctIndex": "1"
+  },
+  {
+    "questionText": "How do you add a comment in JavaScript?",
+    "answerOptions": [
+      "1. # This is a comment",
+      "2. <!-- This is a comment -->",
+      "3. // This is a comment",
+      "4. 'This is a comment'"
+    ],
+    "correctIndex": "3"
+  },
+  {
+    "questionText": "Which operator is used to compare both value and type in JavaScript?",
+    "answerOptions": ["1. =", "2. ==", "3. ===", "4. !=="],
+    "correctIndex": "3"
+  },
+  {
+    "questionText": "What does 'undefined' represent in JavaScript?",
+    "answerOptions": [
+      "1. A variable that is declared but not assigned",
+      "2. A variable with no value",
+      "3. A function with no return value",
+      "4. A special number"
+    ],
+    "correctIndex": "1"
+  },
+  {
+    "questionText": "Which method is used to find the length of an array in JavaScript?",
+    "answerOptions": [
+      "1. .length()",
+      "2. .size()",
+      "3. .count()",
+      "4. .length"
+    ],
+    "correctIndex": "4"
+  },
+  {
+    "questionText": "How do you declare an array in JavaScript?",
+    "answerOptions": [
+      "1. let arr = []",
+      "2. var arr = ()",
+      "3. const arr = {};",
+      "4. arr = []"
+    ],
+    "correctIndex": "1"
+  },
+  {
+    "questionText": "What will be the output of the expression '5' + 5 in JavaScript?",
+    "answerOptions": ["1. 55", "2. 10", "3. '55'", "4. '5'5'"],
+    "correctIndex": "3"
+  },
+  {
+    "questionText": "How can you create a new object in JavaScript?",
+    "answerOptions": [
+      "1. let obj = {};",
+      "2. let obj = []; ",
+      "3. let obj = function();",
+      "4. let obj = new Object();"
+    ],
+    "correctIndex": "1"
+  },
+  {
+    "questionText": "Which method is used to add an element to the end of an array?",
+    "answerOptions": [
+      "1. .push()",
+      "2. .add()",
+      "3. .insert()",
+      "4. .append()"
+    ],
+    "correctIndex": "1"
+  },
+  {
+    "questionText": "What does the 'typeof' operator do in JavaScript?",
+    "answerOptions": [
+      "1. Checks the data type of a variable",
+      "2. Converts a variable to a string",
+      "3. Assigns a data type to a variable",
+      "4. Defines a variable type"
+    ],
+    "correctIndex": "1"
+  },
+  {
+    "questionText": "How do you write an if statement in JavaScript?",
+    "answerOptions": [
+      "1. if x = 10",
+      "2. if (x == 10)",
+      "3. if x == 10:",
+      "4. if (x = 10)"
+    ],
+    "correctIndex": "2"
+  },
+  {
+    "questionText": "What does the 'return' keyword do in JavaScript?",
+    "answerOptions": [
+      "1. Terminates the function and returns a value",
+      "2. Loops through all values",
+      "3. Logs the result to the console",
+      "4. Ends the program"
+    ],
+    "correctIndex": "1"
+  },
+  {
+    "questionText": "Which of these is used to define a block of code in JavaScript?",
+    "answerOptions": [
+      "1. Parentheses",
+      "2. Curly braces",
+      "3. Square brackets",
+      "4. Angle brackets"
+    ],
+    "correctIndex": "2"
+  },
+  {
+    "questionText": "What is the output of the following expression: '10' - 5?",
+    "answerOptions": ["1. 105", "2. 15", "3. '105'", "4. NaN"],
+    "correctIndex": "2"
+  },
+  {
+    "questionText": "Which method is used to remove the last element of an array?",
+    "answerOptions": [
+      "1. .pop()",
+      "2. .shift()",
+      "3. .slice()",
+      "4. .delete()"
+    ],
+    "correctIndex": "1"
+  },
+  {
+    "questionText": "How do you create a conditional statement in JavaScript?",
+    "answerOptions": ["1. if else", "2. if-else", "3. else if", "4. elif"],
+    "correctIndex": "2"
+  },
+  {
+    "questionText": "Which of the following is used to create a for loop in JavaScript?",
+    "answerOptions": [
+      "1. for (i = 0; i < 5; i++)",
+      "2. loop (i = 0; i < 5; i++)",
+      "3. for i = 0 to 5",
+      "4. for (i in 5)"
+    ],
+    "correctIndex": "1"
+  },
+  {
+    "questionText": "What does 'NaN' stand for in JavaScript?",
+    "answerOptions": [
+      "1. Not a Number",
+      "2. Null and Null",
+      "3. Not a Null",
+      "4. No Answer Needed"
+    ],
+    "correctIndex": "1"
+  },
+  {
+    "questionText": "Which of the following is the correct way to convert a string to a number in JavaScript?",
+    "answerOptions": [
+      "1. parseInt()",
+      "2. toNumber()",
+      "3. Number()",
+      "4. convert()"
+    ],
+    "correctIndex": "1"
+  },
+  {
+    "questionText": "What is the default value of a variable declared with 'let' if no value is assigned?",
+    "answerOptions": ["1. 0", "2. undefined", "3. null", "4. false"],
+    "correctIndex": "2"
+  },
+  {
+    "questionText": "Which method is used to join two arrays in JavaScript?",
+    "answerOptions": [
+      "1. .append()",
+      "2. .join()",
+      "3. .concat()",
+      "4. .merge()"
+    ],
+    "correctIndex": "3"
+  },
+  {
+    "questionText": "How do you define a class in JavaScript?",
+    "answerOptions": [
+      "1. class MyClass {}",
+      "2. function MyClass {}",
+      "3. class = MyClass",
+      "4. new MyClass()"
+    ],
+    "correctIndex": "1"
+  },
+  {
+    "questionText": "What does 'this' refer to in JavaScript?",
+    "answerOptions": [
+      "1. The current object",
+      "2. The global object",
+      "3. The function calling the code",
+      "4. The previous variable"
+    ],
+    "correctIndex": "1"
+  },
+  {
+    "questionText": "Which method can be used to check if a string contains a substring in JavaScript?",
+    "answerOptions": [
+      "1. contains()",
+      "2. search()",
+      "3. includes()",
+      "4. indexOf()"
+    ],
+    "correctIndex": "3"
+  },
+  {
+    "questionText": "What is the correct way to define a JavaScript object?",
+    "answerOptions": [
+      "1. var obj = {};",
+      "2. let obj = []; ",
+      "3. const obj = object();",
+      "4. object obj = {}"
+    ],
+    "correctIndex": "1"
+  },
+  {
+    "questionText": "What does the 'push()' method do?",
+    "answerOptions": [
+      "1. Adds an element to the beginning of an array",
+      "2. Adds an element to the end of an array",
+      "3. Removes an element from the array",
+      "4. Reverses the array"
+    ],
+    "correctIndex": "2"
+  },
+  {
+    "questionText": "How can you check if a number is an integer in JavaScript?",
+    "answerOptions": [
+      "1. isInteger()",
+      "2. integer()",
+      "3. Number.isInteger()",
+      "4. Math.isInteger()"
+    ],
+    "correctIndex": "3"
+  },
+  {
+    "questionText": "How can you prevent default form submission in JavaScript?",
+    "answerOptions": [
+      "1. e.preventDefault()",
+      "2. return false",
+      "3. stop() method",
+      "4. prevent() method"
+    ],
+    "correctIndex": "1"
+  }
+]
