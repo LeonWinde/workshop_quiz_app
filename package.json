@@ -1,0 +1,15 @@
+{
+  "name": "questionaire",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/prompt-sync": "^4.2.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "picoprompt": "^5.0.1",
+    "prompt-sync": "^4.2.0"
+  }
+}
