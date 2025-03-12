@@ -10,7 +10,7 @@ type Question = {
 };
 const getQuestions = async () =>{
   try {
-    const res = await fetch("/home/dci-student/Schreibtisch/workshop/workshop_quiz_app/questions.json")
+    const res = await fetch("https://github.com/LeonWinde/workshop_quiz_app/blob/main/questions.json")
     const json = await res.json();
     console.log('res',json);
   } catch (error) {
