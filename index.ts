@@ -1,58 +1,44 @@
-//@ts-ignore
-import prompt from "picoprompt";
-import  path from "path";
+import readline from "readline";
+import * as data from "./questions.json";
 
-const currentPath = path.resolve();
-
-
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+console.log(data);
 
 type Question = {
   questionText: string;
   answerOptions: string[];
   correctIndex: string;
 };
-const getQuestions = async () =>{
-  try {
-    const res = await fetch( "file:///" + currentPath + "/questions.json");
-    const json = await res.json();
-    return json;
-  } catch (error) {
-    console.log('error',error);
+
+// the import gets turned into an object with 2 keys {__esModule:true,default:Question[]}
+//@ts-ignore
+const questionList: Question[] = data.default || [];
+
+const askQuestion = () => {
+  if (questionList.length <= 0) {
+    console.log("Quiz is over, your score is ", score);
   }
-}
-const questionList= await getQuestions();
-// console.log('quest',questionList);
-// const testQuestion: Question = {
-//   questionText: "what is my name",
-//   answerOptions: ["1. Leon", "2. Anton", "3. Tom", "4. John"],
-//   correctIndex: 0,
-// };
-
-// const testQuestion2: Question = {
-//   questionText: "where do humans live",
-//   "answerOptions": ["1. Earth", "2. Mars", "3. Jupiter", "4. Venus"],
-//   "correctIndex": "2",
-// };
-
-
-// questionList.push(testQuestion);
-// questionList.push(testQuestion2);
-
-let score: number = 0;
-
-while (questionList.length !== 0) {
   const { questionText, answerOptions, correctIndex } = questionList[0];
   console.log(`QUESTION : \n\n${questionText}\n\n${answerOptions.join("\n")}`);
-  const userAnswer = prompt("What is the right answer? ");
-  if (userAnswer === correctIndex) {
-    score++; 
-    console.log("Congratulations that was the right answer!\n");
-  } else {
-    console.log(
-      `That was the wrong answer.\n${answerOptions[correctIndex]} was the right answer\n`
-    );
+  let userAnswer = "";
+  rl.question("What is the right answer? ", (userAnswer) => {
+    if (userAnswer === correctIndex) {
+      score++;
+      console.log("\nCongratulations that was the right answer!\n");
+    } else {
+      console.log(
+        `\nThat was the wrong answer.\n${
+          answerOptions[Number(correctIndex) - 1]
+        } was the right answer\n`
+      );
+    }
+    questionList.shift();
+    askQuestion();
+  });
+};
 
-  }
-  questionList.shift();
-}
-console.log(score);
+let score: number = 0;
+askQuestion();
